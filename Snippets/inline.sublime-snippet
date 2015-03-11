@@ -1,8 +1,12 @@
 <snippet>
     <content><![CDATA[
-inline(${1:-inlineName='$2', }-database=$3, -sql=$4${5:, -maxRecords=$6}) => {
+inline(
+	${1:-inlineName='$2', }
+	-database=$3, 
+	-sql=$4${5:, 
+	-maxRecords=$6});
     $0
-}
+/inline;
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>inline</tabTrigger>
