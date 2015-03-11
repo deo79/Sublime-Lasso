@@ -1,9 +1,11 @@
 <snippet>
-    <content><![CDATA[
-column('${1:name}')
-]]></content>
+    <content><![CDATA[define_tag(
+	'$1'
+);
+	$0
+/define_tag;]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>column</tabTrigger>
+    <tabTrigger>define_tag</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.lasso</scope>
 </snippet>

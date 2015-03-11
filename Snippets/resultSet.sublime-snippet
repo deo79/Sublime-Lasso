@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-resultSet(${1:Index}${2:, -inlineName='$3'}) => {
+resultSet(${1:Index}${2:, -inlineName='$3'});
     $0
-}
+/resultSet;
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>resultSet</tabTrigger>

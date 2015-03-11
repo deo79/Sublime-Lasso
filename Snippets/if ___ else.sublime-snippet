@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-if(${1:condition}) => {
+if(${1:condition});
     $2
-else${3:(${4:condition})}
+else${3:(${4:condition});}
     $5
-}
+/if;
 ]]></content>
     <!-- Optional: Description to show in the menu -->
     <description>if...else...</description>
