@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-records${1:(-inlineName='$2')});
+records${1:(-inlineName='$2')};
     $0
 /records;
 ]]></content>
