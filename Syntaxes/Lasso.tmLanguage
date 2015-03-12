@@ -13,7 +13,7 @@
 	<key>foldingStartMarker</key>
 	<string>(?x)(
 		&lt;\?(?i:=|lasso(script)?)\b
-		|(?i:if|inline|iterate|loop|match|protect|records|resultset|rows|while)(\(|:).*(;|$)
+		|(?i:if|inline|define_tag|iterate|loop|match|protect|records|resultset|rows|while)(\(|:).*(;|$)
 		|\/\*(?!.*\*\/)
 	    |\{\s*$
 	    |\{\^\s*$
@@ -21,7 +21,7 @@
 	<key>foldingStopMarker</key>
 	<string>(?x)(
 		\s*\?&gt;
-		|/(?i:if|inline|iterate|loop|match|protect|records|resultset|rows|while)(;|$)
+		|/(?i:if|inline|define_tag|iterate|loop|match|protect|records|resultset|rows|while)(;|$)
 		|^(?!.*?\/\*).*?\*\/
 		|^\s*\}
 		|^\s*\^\}
